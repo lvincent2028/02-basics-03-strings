@@ -10,9 +10,17 @@
 
 using namespace std;  // avoid std:: prefixes
 
-int main(int argc, const char * argv[]) {
+int main()  {
 
-    cout << "Hello, World!\n";
+    string hthnc = "High Tech High North County";
+    cout << hthnc.length() << endl;
+    
+    cout << hthnc[15] << hthnc[16] << hthnc[17] << hthnc[18] << hthnc[19] << hthnc[20] << hthnc[21] << hthnc[22] << hthnc[23] << hthnc[24] << hthnc[25] << hthnc[26] << hthnc[27] << endl;
+    
+    hthnc[0] = 'Z';
+    cout << hthnc << endl;
+    
+    cout << hthnc.find("Tech", 0)  << endl;
+
     return 0;
-
 }
