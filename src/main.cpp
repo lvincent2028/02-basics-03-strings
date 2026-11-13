@@ -21,6 +21,8 @@ int main()  {
     cout << hthnc << endl;
     
     cout << hthnc.find("Tech", 0)  << endl;
+    
+    cout << hthnc.substr(15, 27) << endl;
 
     return 0;
 }
